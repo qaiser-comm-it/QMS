@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "QaisMicroservice.IdentityService": {
+      "path": "QaisMicroservice.IdentityService.abpmdl.json"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\services\administration\src\QMS.AdministrationService.EntityFrameworkCore\QMS.AdministrationService.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\..\services\saas\src\QMS.SaaSService.EntityFrameworkCore\QMS.SaaSService.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\QMS.Shared.Hosting\QMS.Shared.Hosting.csproj" />
+  </ItemGroup>
+
+</Project>

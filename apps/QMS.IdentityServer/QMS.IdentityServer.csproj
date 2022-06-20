@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+	<RootNamespace>QMS</RootNamespace>
+	<UserSecretsId>817dde0e-a14c-46de-984f-d95b127d947a</UserSecretsId>
+	<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+	<DockerfileContext>..\..</DockerfileContext>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="Logs\**" />
+		<Content Remove="Logs\**" />
+		<EmbeddedResource Remove="Logs\**" />
+		<None Remove="Logs\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="Pages\**\*.js">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="Pages\**\*.css">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
+		<PackageReference Include="Serilog.AspNetCore" Version="4.1.0" />
+		<PackageReference Include="Serilog.Sinks.Async" Version="1.5.0" />
+		<PackageReference Include="Microsoft.AspNetCore.DataProtection.StackExchangeRedis" Version="6.0.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Volo.Abp.Autofac" Version="5.2.2" />
+		<PackageReference Include="Volo.Abp.Caching.StackExchangeRedis" Version="5.2.2" />
+		<PackageReference Include="Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic" Version="5.2.2" />
+		<PackageReference Include="Volo.Abp.AspNetCore.Serilog" Version="5.2.2" />
+		<PackageReference Include="Volo.Abp.Account.Web.IdentityServer" Version="5.2.2" />
+		<PackageReference Include="Volo.Abp.Account.Application" Version="5.2.2" />
+		<PackageReference Include="Volo.Abp.Account.HttpApi" Version="5.2.2" />
+		<PackageReference Include="Volo.Abp.EntityFrameworkCore.PostgreSql" Version="5.2.2" />
+	</ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\services\administration\src\QMS.AdministrationService.EntityFrameworkCore\QMS.AdministrationService.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\..\services\identity\src\QMS.IdentityService.EntityFrameworkCore\QMS.IdentityService.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\..\services\saas\src\QMS.SaaSService.EntityFrameworkCore\QMS.SaaSService.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\..\shared\QMS.Shared.Hosting\QMS.Shared.Hosting.csproj" />
+  </ItemGroup>
+
+</Project>

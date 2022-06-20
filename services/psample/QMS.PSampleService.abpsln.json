@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "QMS.PSampleService": {
+      "path": "QMS.PSampleService.abpmdl.json"
+    }
+  }
+}

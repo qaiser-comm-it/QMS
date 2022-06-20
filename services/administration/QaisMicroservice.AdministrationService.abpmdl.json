@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "QaisMicroservice.AdministrationService.Domain.Shared": {
+      "path": "src/QaisMicroservice.AdministrationService.Domain.Shared/QaisMicroservice.AdministrationService.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "QaisMicroservice.AdministrationService.Domain": {
+      "path": "src/QaisMicroservice.AdministrationService.Domain/QaisMicroservice.AdministrationService.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "QaisMicroservice.AdministrationService.Application.Contracts": {
+      "path": "src/QaisMicroservice.AdministrationService.Application.Contracts/QaisMicroservice.AdministrationService.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "QaisMicroservice.AdministrationService.Application": {
+      "path": "src/QaisMicroservice.AdministrationService.Application/QaisMicroservice.AdministrationService.Application.abppkg.json",
+      "folder": "src"
+    },
+    "QaisMicroservice.AdministrationService.EntityFrameworkCore": {
+      "path": "src/QaisMicroservice.AdministrationService.EntityFrameworkCore/QaisMicroservice.AdministrationService.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "QaisMicroservice.AdministrationService.MongoDB": {
+      "path": "src/QaisMicroservice.AdministrationService.MongoDB/QaisMicroservice.AdministrationService.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "QaisMicroservice.AdministrationService.HttpApi": {
+      "path": "src/QaisMicroservice.AdministrationService.HttpApi/QaisMicroservice.AdministrationService.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "QaisMicroservice.AdministrationService.HttpApi.Client": {
+      "path": "src/QaisMicroservice.AdministrationService.HttpApi.Client/QaisMicroservice.AdministrationService.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "QaisMicroservice.AdministrationService.TestBase": {
+      "path": "test/QaisMicroservice.AdministrationService.TestBase/QaisMicroservice.AdministrationService.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "QaisMicroservice.AdministrationService.EntityFrameworkCore.Tests": {
+      "path": "test/QaisMicroservice.AdministrationService.EntityFrameworkCore.Tests/QaisMicroservice.AdministrationService.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "QaisMicroservice.AdministrationService.MongoDB.Tests": {
+      "path": "test/QaisMicroservice.AdministrationService.MongoDB.Tests/QaisMicroservice.AdministrationService.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "QaisMicroservice.AdministrationService.Domain.Tests": {
+      "path": "test/QaisMicroservice.AdministrationService.Domain.Tests/QaisMicroservice.AdministrationService.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "QaisMicroservice.AdministrationService.Application.Tests": {
+      "path": "test/QaisMicroservice.AdministrationService.Application.Tests/QaisMicroservice.AdministrationService.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "QaisMicroservice.AdministrationService.HttpApi.Host": {
+      "path": "host/QaisMicroservice.AdministrationService.HttpApi.Host/QaisMicroservice.AdministrationService.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "QaisMicroservice.AdministrationService.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/QaisMicroservice.AdministrationService.HttpApi.Client.ConsoleTestApp/QaisMicroservice.AdministrationService.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "QaisMicroservice.AdministrationService.IdentityServer": {
+      "path": "host/QaisMicroservice.AdministrationService.IdentityServer/QaisMicroservice.AdministrationService.IdentityServer.abppkg.json",
+      "folder": "host"
+    },
+    "QaisMicroservice.AdministrationService.Host.Shared": {
+      "path": "host/QaisMicroservice.AdministrationService.Host.Shared/QaisMicroservice.AdministrationService.Host.Shared.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

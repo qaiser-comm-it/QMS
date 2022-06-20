@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "QaisMicroservice.IdentityService.Domain.Shared": {
+      "path": "src/QaisMicroservice.IdentityService.Domain.Shared/QaisMicroservice.IdentityService.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "QaisMicroservice.IdentityService.Domain": {
+      "path": "src/QaisMicroservice.IdentityService.Domain/QaisMicroservice.IdentityService.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "QaisMicroservice.IdentityService.Application.Contracts": {
+      "path": "src/QaisMicroservice.IdentityService.Application.Contracts/QaisMicroservice.IdentityService.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "QaisMicroservice.IdentityService.Application": {
+      "path": "src/QaisMicroservice.IdentityService.Application/QaisMicroservice.IdentityService.Application.abppkg.json",
+      "folder": "src"
+    },
+    "QaisMicroservice.IdentityService.EntityFrameworkCore": {
+      "path": "src/QaisMicroservice.IdentityService.EntityFrameworkCore/QaisMicroservice.IdentityService.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "QaisMicroservice.IdentityService.MongoDB": {
+      "path": "src/QaisMicroservice.IdentityService.MongoDB/QaisMicroservice.IdentityService.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "QaisMicroservice.IdentityService.HttpApi": {
+      "path": "src/QaisMicroservice.IdentityService.HttpApi/QaisMicroservice.IdentityService.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "QaisMicroservice.IdentityService.HttpApi.Client": {
+      "path": "src/QaisMicroservice.IdentityService.HttpApi.Client/QaisMicroservice.IdentityService.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "QaisMicroservice.IdentityService.TestBase": {
+      "path": "test/QaisMicroservice.IdentityService.TestBase/QaisMicroservice.IdentityService.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "QaisMicroservice.IdentityService.EntityFrameworkCore.Tests": {
+      "path": "test/QaisMicroservice.IdentityService.EntityFrameworkCore.Tests/QaisMicroservice.IdentityService.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "QaisMicroservice.IdentityService.MongoDB.Tests": {
+      "path": "test/QaisMicroservice.IdentityService.MongoDB.Tests/QaisMicroservice.IdentityService.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "QaisMicroservice.IdentityService.Domain.Tests": {
+      "path": "test/QaisMicroservice.IdentityService.Domain.Tests/QaisMicroservice.IdentityService.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "QaisMicroservice.IdentityService.Application.Tests": {
+      "path": "test/QaisMicroservice.IdentityService.Application.Tests/QaisMicroservice.IdentityService.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "QaisMicroservice.IdentityService.HttpApi.Host": {
+      "path": "host/QaisMicroservice.IdentityService.HttpApi.Host/QaisMicroservice.IdentityService.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "QaisMicroservice.IdentityService.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/QaisMicroservice.IdentityService.HttpApi.Client.ConsoleTestApp/QaisMicroservice.IdentityService.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "QaisMicroservice.IdentityService.IdentityServer": {
+      "path": "host/QaisMicroservice.IdentityService.IdentityServer/QaisMicroservice.IdentityService.IdentityServer.abppkg.json",
+      "folder": "host"
+    },
+    "QaisMicroservice.IdentityService.Host.Shared": {
+      "path": "host/QaisMicroservice.IdentityService.Host.Shared/QaisMicroservice.IdentityService.Host.Shared.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

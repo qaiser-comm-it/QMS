@@ -1,0 +1,26 @@
+# tye application configuration file
+# read all about it at https://github.com/dotnet/tye
+#
+# when you've given us a try, we'd love to know what you think:
+#    https://aka.ms/AA7q20u
+#
+name: qms
+services:
+- name: qms-identityserver
+  project: apps/QMS.IdentityServer/QMS.IdentityServer.csproj
+- name: qms-gateway
+  project: gateway/QMS.Gateway/QMS.Gateway.csproj
+- name: qms-administrationservice-httpapi-host
+  project: services/administration/host/QMS.AdministrationService.HttpApi.Host/QMS.AdministrationService.HttpApi.Host.csproj
+- name: qms-administrationservice-httpapi-client-consoletestapp
+  project: services/administration/test/QMS.AdministrationService.HttpApi.Client.ConsoleTestApp/QMS.AdministrationService.HttpApi.Client.ConsoleTestApp.csproj
+- name: qms-identityservice-httpapi-host
+  project: services/identity/host/QMS.IdentityService.HttpApi.Host/QMS.IdentityService.HttpApi.Host.csproj
+- name: qms-identityservice-httpapi-client-consoletestapp
+  project: services/identity/test/QMS.IdentityService.HttpApi.Client.ConsoleTestApp/QMS.IdentityService.HttpApi.Client.ConsoleTestApp.csproj
+- name: qms-saasservice-httpapi-host
+  project: services/saas/host/QMS.SaaSService.HttpApi.Host/QMS.SaaSService.HttpApi.Host.csproj
+- name: qms-saasservice-httpapi-client-consoletestapp
+  project: services/saas/test/QMS.SaaSService.HttpApi.Client.ConsoleTestApp/QMS.SaaSService.HttpApi.Client.ConsoleTestApp.csproj
+- name: qms-dbmigrator
+  project: shared/QMS.DbMigrator/QMS.DbMigrator.csproj

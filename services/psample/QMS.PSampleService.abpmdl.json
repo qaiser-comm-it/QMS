@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "QMS.PSampleService.Domain.Shared": {
+      "path": "src/QMS.PSampleService.Domain.Shared/QMS.PSampleService.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "QMS.PSampleService.Domain": {
+      "path": "src/QMS.PSampleService.Domain/QMS.PSampleService.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "QMS.PSampleService.Application.Contracts": {
+      "path": "src/QMS.PSampleService.Application.Contracts/QMS.PSampleService.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "QMS.PSampleService.Application": {
+      "path": "src/QMS.PSampleService.Application/QMS.PSampleService.Application.abppkg.json",
+      "folder": "src"
+    },
+    "QMS.PSampleService.EntityFrameworkCore": {
+      "path": "src/QMS.PSampleService.EntityFrameworkCore/QMS.PSampleService.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "QMS.PSampleService.MongoDB": {
+      "path": "src/QMS.PSampleService.MongoDB/QMS.PSampleService.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "QMS.PSampleService.HttpApi": {
+      "path": "src/QMS.PSampleService.HttpApi/QMS.PSampleService.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "QMS.PSampleService.HttpApi.Client": {
+      "path": "src/QMS.PSampleService.HttpApi.Client/QMS.PSampleService.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "QMS.PSampleService.TestBase": {
+      "path": "test/QMS.PSampleService.TestBase/QMS.PSampleService.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "QMS.PSampleService.EntityFrameworkCore.Tests": {
+      "path": "test/QMS.PSampleService.EntityFrameworkCore.Tests/QMS.PSampleService.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "QMS.PSampleService.MongoDB.Tests": {
+      "path": "test/QMS.PSampleService.MongoDB.Tests/QMS.PSampleService.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "QMS.PSampleService.Domain.Tests": {
+      "path": "test/QMS.PSampleService.Domain.Tests/QMS.PSampleService.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "QMS.PSampleService.Application.Tests": {
+      "path": "test/QMS.PSampleService.Application.Tests/QMS.PSampleService.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "QMS.PSampleService.HttpApi.Host": {
+      "path": "host/QMS.PSampleService.HttpApi.Host/QMS.PSampleService.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "QMS.PSampleService.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/QMS.PSampleService.HttpApi.Client.ConsoleTestApp/QMS.PSampleService.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "QMS.PSampleService.IdentityServer": {
+      "path": "host/QMS.PSampleService.IdentityServer/QMS.PSampleService.IdentityServer.abppkg.json",
+      "folder": "host"
+    },
+    "QMS.PSampleService.Host.Shared": {
+      "path": "host/QMS.PSampleService.Host.Shared/QMS.PSampleService.Host.Shared.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

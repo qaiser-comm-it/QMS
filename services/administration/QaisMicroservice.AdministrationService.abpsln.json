@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "QaisMicroservice.AdministrationService": {
+      "path": "QaisMicroservice.AdministrationService.abpmdl.json"
+    }
+  }
+}

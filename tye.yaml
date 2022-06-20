@@ -1,0 +1,34 @@
+# tye application configuration file
+# read all about it at https://github.com/dotnet/tye
+#
+# when you've given us a try, we'd love to know what you think:
+#    https://aka.ms/AA7q20u
+#
+
+name: qms
+services:
+- name: qms-identityserver
+  project: apps/QMS.IdentityServer/QMS.IdentityServer.csproj
+  bindings:
+    - protocol: https
+      port: 7000
+- name: qms-gateway
+  project: gateway/QMS.Gateway/QMS.Gateway.csproj
+  bindings:
+    - protocol: https
+      port: 7500
+- name: qms-administrationservice-httpapi-host
+  project: services/administration/host/QMS.AdministrationService.HttpApi.Host/QMS.AdministrationService.HttpApi.Host.csproj
+  bindings:
+    - protocol: https
+      port: 7001
+- name: qms-identityservice-httpapi-host
+  project: services/identity/host/QMS.IdentityService.HttpApi.Host/QMS.IdentityService.HttpApi.Host.csproj
+  bindings:
+    - protocol: https
+      port: 7002
+- name: qms-saasservice-httpapi-host
+  project: services/saas/host/QMS.SaaSService.HttpApi.Host/QMS.SaaSService.HttpApi.Host.csproj
+  bindings:
+    - protocol: https
+      port: 7003

@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "QaisMicroservice.SaaSService": {
+      "path": "QaisMicroservice.SaaSService.abpmdl.json"
+    }
+  }
+}
